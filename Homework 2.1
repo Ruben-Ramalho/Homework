@@ -1,0 +1,16 @@
+player_name = input("Welcome, to start the program can you tell me your name?")
+print("Hello " + player_name + ", this program was designed so you can convert any kilometer unit into miles.")
+Repeat = 0
+
+while True:
+
+    cl = 0.6214
+    km = int(input("Please insert your kilometer unit here:"))
+
+    print(km * cl)
+
+    Repeat = input("If you wish to use this program again, please type (Yes):")
+
+    if Repeat != "Yes" and Repeat != "yes":
+        print("Thank you for using this program! Goodbye.")
+        break
